@@ -1,6 +1,9 @@
 def addition(a, b):
     return a + b
 
+def soustraction(a,b):
+    return a-b
+
 
 def division(a, b):
     if (b != 0):
@@ -8,6 +11,8 @@ def division(a, b):
     else:
         print("erreur: division par 0")
 
+def multiplication(a,b):
+    return a*b
 
 def saisir_nombre():
     while True:
